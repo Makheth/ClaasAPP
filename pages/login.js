@@ -28,7 +28,7 @@ const Login = () => {
     },
   });
 
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("mamoabi@gmail.com");
 
   const navigation = useNavigation();
 
@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 8,
     backgroundColor: '#fff',
+    alignItems:'center'
   },
   input: {
     backgroundColor: 'white',
